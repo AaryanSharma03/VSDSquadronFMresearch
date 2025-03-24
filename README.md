@@ -161,24 +161,9 @@ The Makefile is available at: [Makefile](https://github.com/thesourcerer8/VSDSqu
 
 ---
 
-## Step 4: Final Documentation
-
-### Required Documentation
-- Summary of the Verilog code functionality
-- Pin mapping details from the PCF file
-- Integration steps and observations while working with the FPGA Mini board
-- Challenges faced and solutions implemented
-
-### Submission
-Submit the final document along with:
-- Working Verilog source files
-- PCF file
-- Documentation in the GitHub repository
-
----
 
 ## License
-This project is licensed under the MIT License.
+
 
 ## Author
-[Aaryan Sharma](https://github.com/your-github-username)
+[Aaryan Sharma](https://github.com/AaryanSharma03)
