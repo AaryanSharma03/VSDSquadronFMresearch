@@ -88,6 +88,33 @@ This Verilog module implements a simple design that utilizes an internal high-fr
 - **RGB LED Driver (`SB_RGBA_DRV`)**: Controls an RGB LED, with only the blue LED activated (`RGB2PWM = 1'b1`). The current settings are predefined.
 
 ---
+**1. Internal Oscilliator (*SB_HFOSC*)**
+- Purpose: This generates a stable internal clock signal
+- Configuration: Uses CLKHF_DIV = "0b10" (binary 2) for clock division
+- Control Signals:
+    1. *CLKHFPU = 1'b1* : Enables power-up
+    2. *CLKHFEN = 1'b1* : Enables oscillator
+    3. *CLKHF* : Output connected to internal *int_osc* signal
+
+**2. Frequency Counter Logic**
+- Implementation: 28-bit register (*frequency_counter_i*)
+- Operation: Increments on every positive edge of *int_osc*
+- Test functionality: Bit 5 is routed to *testwire* for monitoring
+- Purpose: Provides a way to verify oscillator operation and timing
+
+**3. RGB LED Driver (*SB_RGBA_DRV*)**
+
+- Configuration:
+    1. *RGBLEDEN = 1'b1* : Enables LED operation
+    2. *RGB0PWM = 1'b0* : Red LED minimum brightness
+    3. *RGB1PWM = 1'b0* : Green LED minimum brightness
+    4. *RGB2PWM = 1'b1* : Blue LED maximum brightness
+    5. *CURREN = 1'b1* : Enables current control
+- Current settings: All LEDs set to "0b000001" (minimum current)
+ - Output connections:
+    1. *RGB0* → *led_red*
+    2. *RGB1* → *led_green*
+    3. *RGB2* → *led_blue*
 
 ## Step 2: Creating the PCF File
 
