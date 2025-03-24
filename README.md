@@ -159,6 +159,10 @@ The Makefile is available at: [Makefile](https://github.com/thesourcerer8/VSDSqu
 3. Run `sudo make flash` to program the FPGA.
 4. Observe the RGB LED behavior to confirm successful programming.
 
+
+https://github.com/user-attachments/assets/8dea0a45-c348-4dd7-bc76-1f52246cf4b3
+
+
 ---
 
 
