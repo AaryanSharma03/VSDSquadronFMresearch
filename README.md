@@ -104,7 +104,7 @@ The PCF file can be found at: [VSDSquadronFM.pcf](https://github.com/thesourcere
 | `testwire` | 17 |
 
 Cross-reference these pin assignments with the VSDSquadron FPGA Mini board datasheet to verify correctness.
-
+[Datasheet](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSDSquadronFMDatasheet.pdf)
 ### Significance of Connections
 - **RGB LEDs**: Connected to FPGA output pins to enable color control.
 - **`hw_clk`**: External clock input for flexibility in timing.
