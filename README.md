@@ -1,6 +1,6 @@
 # VSDSquadronFMresearch
 
-# VSDSquadron FPGA Mini - Verilog Integration Task
+# Task 1- VSDSquadron FPGA Mini - Verilog Integration Task
 
 ## Objective
 Understand and document the provided Verilog code, create the necessary PCF file, and integrate the design with the VSDSquadron FPGA Mini board using the provided datasheet. Additionally, install the required tools as explained in the datasheet.
