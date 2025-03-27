@@ -165,6 +165,72 @@ https://github.com/user-attachments/assets/8dea0a45-c348-4dd7-bc76-1f52246cf4b3
 
 ---
 
+# Task 2- VSDSquadron FPGA Mini - UART loopback mechanism 
+
+## Overview
+This repository contains my work for the **VSDSquadron FM Research Internship** by **Ojasvi Shah**. The focus of this internship is FPGA development, UART communication, and real-time sensor data acquisition using the **VSDSquadron FPGA Mini (FM)**.
+
+## Table of Contents
+- [Project Description](#project-description)
+- [Tasks](#tasks)
+  - [Task 1: Understanding and Implementing the Verilog Code](#task-1-understanding-and-implementing-the-verilog-code)
+  - [Task 2: Implementing a UART Loopback Mechanism](#task-2-implementing-a-uart-loopback-mechanism)
+  - [Task 3: Developing a UART Transmitter Module](#task-3-developing-a-uart-transmitter-module)
+  - [Task 4: Implementing a UART Transmitter Based on Sensor Inputs](#task-4-implementing-a-uart-transmitter-based-on-sensor-inputs)
+  - [Task 5 and 6: Real-Time Sensor Data Acquisition and Transmission](#task-5-and-6-real-time-sensor-data-acquisition-and-transmission)
+- [Setup Instructions](#setup-instructions)
+- [Documentation](#documentation)
+- [References](#references)
+
+## Project Description
+The **VSDSquadron FPGA Mini (FM)** is a low-cost development board designed for FPGA prototyping and embedded system applications. This project aims to explore FPGA programming, peripheral interfacing, and real-time data communication using **Verilog** and **UART protocols**.
+
+## Tasks
+
+### Task 1: Understanding and Implementing the Verilog Code
+- Analyze and document the provided Verilog code.
+- Create a **Physical Constraint File (PCF)** to map logical signals to FPGA pins.
+- Integrate and test the design with the **VSDSquadron FPGA Mini**.
+
+### Task 2: Implementing a UART Loopback Mechanism
+- Study the **UART protocol** and the provided Verilog implementation.
+- Implement a loopback mechanism where **TX data is routed back to RX**.
+- Design block and circuit diagrams.
+- Test the implementation on FPGA.
+
+### Task 3: Developing a UART Transmitter Module
+- Develop a **UART transmitter** to send serial data from FPGA to an external device.
+- Convert parallel data into sequential bits using Verilog.
+- Implement and test the module.
+
+### Task 4: Implementing a UART Transmitter Based on Sensor Inputs
+- Integrate **sensor inputs** with the FPGA.
+- Transmit real-time sensor data via **UART communication**.
+- Document the design and testing results.
+
+### Task 5 : Real-Time Sensor Data Acquisition and Transmission
+- Research real-time sensor data acquisition techniques.
+- Develop a system that interfaces with **multiple sensors**.
+- Process sensor data and transmit it via **UART or other communication protocols**.
+- Create a final **project proposal**, implement the system, and document the results.
+
+## Setup Instructions
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/AaryanSharma/VSDSquadron-FPGA-Research.git
+   ```
+2. Install required FPGA development tools (Yosys, NextPNR, etc.).
+3. Follow individual task directories for detailed implementation steps.
+   [Click Here](https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/uart_loopback)
+
+## Documentation
+
+
+## References
+- [VSDSquadron FPGA Mini Datasheet](#)
+- [Yosys Open Source Synthesis Suite](https://yosyshq.net/)
+- [NextPNR FPGA Place & Route](https://github.com/YosysHQ/nextpnr)
+
 
 ## License
 
